@@ -1,0 +1,47 @@
+# C++ 빌드 파일
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.dll
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+
+# CMake 빌드 폴더
+/build/
+# CMake 캐시 파일
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+Makefile.user
+*.cmake
+
+# Visual Studio 파일 (Windows)
+.vs/
+.vscode/
+.idea/
+
+# Xcode (macOS)
+*.xcodeproj/
+*.xcworkspace/
+
+# Qt Creator
+*.pro.user
+*.pro.user.* 
+
+# 임시 파일
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 기타 빌드 도구 및 IDE 관련
+*.log
+*.bak
+*.tmp
+*.tags
